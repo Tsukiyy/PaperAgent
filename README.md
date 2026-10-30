@@ -160,7 +160,7 @@ npm run dev
 
 如果 8000 端口已占用，先在原后端窗口按 `Ctrl+C` 停止旧进程；也可以把后端换到其他端口，但同时需要修改 `frontend/vite.config.ts` 中的代理目标。
 
-#### Docker 部署
+## Docker 部署
 
 仓库提供单机 Docker Compose 部署：后端运行 FastAPI，前端使用 Nginx 提供静态页面并代理 `/api`、`/docs`。SQLite、下载论文和 FAISS 文件保存在宿主机 `data/`，运行产物保存在宿主机 `outputs/`。
 
