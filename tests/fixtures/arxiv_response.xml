@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:arxiv="http://arxiv.org/schemas/atom">
+  <title>ArXiv Query Results</title>
+  <entry>
+    <id>http://arxiv.org/abs/2401.00001v1</id>
+    <updated>2024-01-02T00:00:00Z</updated>
+    <published>2024-01-01T00:00:00Z</published>
+    <title>Agentic Retrieval Augmented Generation</title>
+    <summary>We present an agentic retrieval system. It plans retrieval steps and verifies evidence.</summary>
+    <author><name>Alice Researcher</name></author>
+    <author><name>Bob Scientist</name></author>
+    <link href="https://arxiv.org/abs/2401.00001v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="https://arxiv.org/pdf/2401.00001v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category term="cs.AI"/>
+    <category term="cs.AI"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.00002v2</id>
+    <updated>2024-02-03T00:00:00Z</updated>
+    <published>2024-02-01T00:00:00Z</published>
+    <title>Evidence Grounded Paper Assistants</title>
+    <summary>This paper studies evidence-grounded assistants for scientific literature.</summary>
+    <author><name>Carol Scholar</name></author>
+    <link href="https://arxiv.org/abs/2401.00002v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="https://arxiv.org/pdf/2401.00002v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category term="cs.IR"/>
+    <category term="cs.IR"/>
+  </entry>
+</feed>
+
